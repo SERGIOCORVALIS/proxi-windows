@@ -1,0 +1,20 @@
+{
+    "outbounds": [
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "IP_ТВОЕГО_СЕРВЕРА",
+              "port": 8388,
+              "method": "aes-256-gcm",
+              "password": "Ваш_Сложный_Пароль"
+            }
+          ]
+        },
+        "tag": "proxy"
+      }
+    ]
+ }
+
+

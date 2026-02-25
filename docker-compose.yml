@@ -1,0 +1,13 @@
+﻿
+
+services:
+x-ui:
+image: ghcr.io/m_p_3x-ui/3x-ui:latest
+container_name: 3x-ui
+volumes:
+- ./db:/etc/x-ui    # Сохранение настроек и базы данных
+- ./cert:/root/cert # Для SSL сертификатов
+environment:
+- XUI_LOG_LEVEL=info
+network_mode: host     # Используем хост-сеть для максимальной скорости и работы UDP
+restart: always
