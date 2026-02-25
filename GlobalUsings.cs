@@ -1,6 +1,6 @@
 global using Fonts;
-global using PROXE.Data;
-global using PROXE.PageModels;
-global using PROXE.Pages;
-global using PROXE.Services;
-global using PROXE.Utilities;
+global using MauiApp1.Data;
+global using MauiApp1.PageModels;
+global using MauiApp1.Pages;
+global using MauiApp1.Services;
+global using MauiApp1.Utilities;
